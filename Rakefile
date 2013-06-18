@@ -22,7 +22,7 @@ task :update => [ 'update:bundles' ]
 namespace :update do
 
   BUNDLES = {
-    # plugins
+    # github.com  plugins
     :ctrlp         => "git://github.com/kien/ctrlp.vim.git",
     :ack           => "git://github.com/mileszs/ack.vim.git",
     :rails         => "git://github.com/tpope/vim-rails.git",
@@ -34,6 +34,10 @@ namespace :update do
     :nerdtree      => "git://github.com/scrooloose/nerdtree.git",
     :nerdcommenter => "git://github.com/scrooloose/nerdcommenter.git",
     :tabular       => "git://github.com/godlygeek/tabular",
+    :javascript    => "git://github.com/pangloss/vim-javascript.git",
+    :jst           => "git://github.com/briancollins/vim-jst.git",
+    :ag            => "git://github.com/rking/ag.vim.git",
+    # only vim.org plugins
     :bufexplorer   => "http://www.vim.org/scripts/download_script.php?src_id=20031",
     :taglist       => "http://www.vim.org/scripts/download_script.php?src_id=19574",
 
